@@ -58,7 +58,7 @@
 import { computed, ref } from "vue";
 import { ToDoItem } from "@/modules/todos/models/ToDoItem";
 import { DateFormatter } from "@/infrastructure/services/DateFormatter";
-import { TodoApiClient } from "@/infrastructure/apiClients/airBnbApiClient/brokers/TodoApiClient";
+import { TodoApiClient } from "@/infrastructure/apiClients/todoApiClient/brokers/TodoApiClient";
 import { Utils } from "@/infrastructure/extensions/ObjectExtensions";
 import type { Guid } from "guid-typescript";
 

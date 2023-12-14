@@ -36,7 +36,7 @@
 import { ref, watch } from "vue";
 import { Utils } from "@/infrastructure/extensions/ObjectExtensions";
 import { ToDoItem } from "@/modules/todos/models/ToDoItem";
-import { TodoApiClient } from "@/infrastructure/apiClients/airBnbApiClient/brokers/TodoApiClient";
+import { TodoApiClient } from "@/infrastructure/apiClients/todoApiClient/brokers/TodoApiClient";
 import { useDate } from "vuetify";
 
 const adapter = useDate();
