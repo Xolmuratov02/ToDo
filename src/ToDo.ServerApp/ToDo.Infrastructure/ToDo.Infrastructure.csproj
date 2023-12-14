@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.Application\ToDo.Application.csproj" />
+    <ProjectReference Include="..\ToDo.Persistence\ToDo.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
